@@ -1,69 +1,190 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Portfólio | Vanessa Gomes Martins da Silva</title>
 
   <!-- CSS -->
   <link rel="stylesheet" href="style.css">
 
   <!-- Ícones -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  >
 </head>
 
 <body>
-  <!-- Botão Dark/Light -->
+
+  <!-- BOTÃO DARK/LIGHT -->
   <button id="theme-toggle" aria-label="Alternar tema">🌙</button>
 
-  <!-- CABEÇALHO -->
-  <header>
-    <div class="header-inner">
+
+  <!-- =========================
+       HERO
+  ========================== -->
+  <header class="hero">
+
+    <div class="hero-content">
+
+      <p class="hero-eyebrow">
+        Física Computacional • Machine Learning • HPC
+      </p>
+
       <h1>Vanessa Gomes Martins da Silva</h1>
-     <p class="subtitle">Desenvolvimento de Software • Machine Learning • Infraestrutura HPC</p>
-      <p class="subtitle">Desenvolvendo soluções em IA, Computação de Alto Desempenho e Desenvolvimento Web.</p>
-    
-      <!-- Ícones Redes -->
-    <div class="social-icons">
-      <a href="https://github.com/VanessaMartiins" target="_blank"><i class="fab fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/vanessagmartins/" target="_blank"><i class="fab fa-linkedin"></i></a>
-      <a href="https://lattes.cnpq.br/7716509150901876" target="_blank"><i class="fa-solid fa-graduation-cap"></i></a>
-      <a href="mailto:vanemartiins@gmail.com"><i class="fas fa-envelope"></i></a>
+
+      <p class="hero-description">
+        Desenvolvo soluções que conectam software, dados e infraestrutura computacional,
+        com experiência em Machine Learning, ambientes Linux e Computação de Alto Desempenho.
+      </p>
+
+      <!-- REDES SOCIAIS -->
+      <div class="social-icons">
+
+        <a
+          href="https://github.com/VanessaMartiins"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/vanessagmartins/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+
+        <a
+          href="https://lattes.cnpq.br/7716509150901876"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Currículo Lattes"
+        >
+          <i class="fa-solid fa-graduation-cap"></i>
+        </a>
+
+        <a
+          href="mailto:vanemartiins@gmail.com"
+          aria-label="E-mail"
+        >
+          <i class="fas fa-envelope"></i>
+        </a>
+
+      </div>
+
+
+      <!-- BOTÕES -->
+      <div class="hero-actions">
+
+        <a href="#projetos" class="primary-btn">
+          <i class="fa-solid fa-code"></i>
+          Ver projetos
+        </a>
+
+        <a
+          href="Vanessa_Gomes_Curriculo.pdf"
+          download
+          class="secondary-btn"
+        >
+          <i class="fa-solid fa-file-arrow-down"></i>
+          Baixar currículo
+        </a>
+
+      </div>
+
     </div>
 
-      <div class="cv-btn">
-        <!-- lembre de manter curriculo_vanessa.pdf na raiz do repositório -->
-        <a href="Vanessa_Gomes_Curriculo.pdf" download>
-          <i class="fa-solid fa-file-arrow-down"></i> Baixar Currículo
-        </a>
-      </div>
-    </div>
   </header>
 
-  <!-- SOBRE MIM -->
-  <section class="section">
-    <h2>Sobre Mim</h2>
-    <p>
-    Sou graduanda em Física Computacional pela UFF, com experiência em desenvolvimento de software, Machine Learning e Computação de Alto Desempenho (HPC).
-    Atuei em ambientes corporativos de infraestrutura crítica (CSN/TIVIT) e desenvolvi projetos envolvendo inteligência artificial, otimização científica, desenvolvimento web e análise de dados.
-    Tenho interesse em construir soluções que unem pesquisa, engenharia e tecnologia para resolver problemas reais.
-    </p>  
-  </section>
 
-  <!-- PROJETOS -->
-  <section class="section">
+  <!-- =========================
+       SOBRE MIM
+  ========================== -->
+<!-- =========================
+     SOBRE MIM
+========================== -->
+<section class="section about-section">
+
+  <div class="about-header">
+    <span class="section-label">PERFIL</span>
+    <h2>Sobre Mim</h2>
+  </div>
+
+  <p class="about-description">
+    Sou formada em <strong>Física Computacional pela Universidade Federal Fluminense (UFF)</strong>
+    e atuo na interseção entre software, dados e infraestrutura computacional.
+    Minha experiência combina desenvolvimento, Machine Learning e ambientes HPC/Linux,
+    desde projetos acadêmicos e aplicações web até infraestrutura e soluções utilizadas
+    em ambientes corporativos.
+  </p>
+
+  <div class="about-areas">
+
+    <div class="about-area">
+      <i class="fa-solid fa-code"></i>
+
+      <div>
+        <strong>Software & Web</strong>
+        <span>Desenvolvimento de aplicações e ferramentas</span>
+      </div>
+    </div>
+
+    <div class="about-area">
+      <i class="fa-solid fa-brain"></i>
+
+      <div>
+        <strong>Machine Learning & Dados</strong>
+        <span>Modelagem, análise e aplicações de IA</span>
+      </div>
+    </div>
+
+    <div class="about-area">
+      <i class="fa-solid fa-server"></i>
+
+      <div>
+        <strong>HPC & Linux</strong>
+        <span>Infraestrutura e computação de alto desempenho</span>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+
+  <!-- =========================
+       PROJETOS
+  ========================== -->
+  <section class="section" id="projetos">
+
     <h2>Projetos</h2>
 
-<div class="card">
-    <h3>🌐 Website Institucional — Psicóloga Andressa Martins</h3>
 
-    <p>
+    <!-- SITE PSICÓLOGA -->
+    <div class="card">
+
+      <h3>🌐 Website Institucional — Psicóloga Andressa Martins</h3>
+
+      <img
+        src="img/site-andressa.png"
+        alt="Website institucional da Psicóloga Andressa Martins"
+        class="project-image"
+      >
+      <p>
         Desenvolvimento de um website institucional para cliente real,
         incluindo blog administrável, autenticação via GitHub OAuth,
         deploy automatizado na Vercel e configuração de domínio próprio.
-    </p>
+      </p>
 
-    <div class="tags">
+      <div class="tags">
         <span>HTML5</span>
         <span>CSS3</span>
         <span>JavaScript</span>
@@ -72,213 +193,493 @@
         <span>Vercel</span>
         <span>OAuth</span>
         <span>Registro.br</span>
-    </div>
+      </div>
 
-    <div class="project-links">
-        <a href="https://github.com/VaneSolutions/site-psicologa-andressa"
-           target="_blank"
-           class="project-link">
-            💻 Ver código no GitHub
+      <div class="project-links">
+
+        <a
+          href="https://www.psiandressagmartins.com.br"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="project-link secondary"
+        >
+          🌐 Acessar site
         </a>
 
-        <a href="https://www.psiandressagmartins.com.br"
-           target="_blank"
-           class="project-link secondary">
-            🌐 Acessar site
+        <a
+          href="https://github.com/VaneSolutions/site-psicologa-andressa"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="project-link"
+        >
+          💻 Ver código no GitHub
         </a>
+
+      </div>
+
     </div>
-</div>
-    
-    <div class="card">
-  <h3>🌌 Classificação Fotométrica de Objetos Astronômicos (TCC)</h3>
+
+
+ <!-- ASTROCLASSIFIER -->
+<div class="card">
+
+  <h3>🌌 AstroClassifier — Classificação Fotométrica de Objetos Astronômicos</h3>
+
+  <img
+  src="img/Astroclassifier.png"
+  alt="Interface do AstroClassifier"
+  class="project-image"
+  >
+
   <p>
-    Rede neural supervisionada desenvolvida para classificar objetos astronômicos como 
-    <strong>GALAXY</strong>, <strong>STAR</strong> e <strong>QSO</strong> utilizando fotometria multibanda do 
-    SDSS-DR16 combinada com dados do WISE. O modelo alcançou aproximadamente 93% de acurácia.
+    Projeto desenvolvido a partir do meu Trabalho de Conclusão de Curso em Física Computacional.
+    Utiliza uma rede neural supervisionada para classificar objetos astronômicos como
+    <strong>GALAXY</strong>, <strong>STAR</strong> e <strong>QSO</strong>,
+    combinando dados fotométricos do SDSS-DR16 e WISE.
+    O modelo alcançou aproximadamente 93% de acurácia e foi posteriormente integrado
+    a uma aplicação web interativa para utilização e demonstração do classificador.
   </p>
-  
+
   <div class="tags">
     <span>Python</span>
     <span>PyTorch</span>
+    <span>Scikit-learn</span>
     <span>Machine Learning</span>
     <span>SDSS/WISE</span>
   </div>
 
-<div class="project-links"> 
-  <a href="https://github.com/VanessaMartiins/AstroClassifier" target="_blank" class="project-link">  
-    🔗 Ver projeto no GitHub 
-  </a> 
-</div> </div>
-
-
-<div class="card">
-  <h3>🚦 Simulação HPC – Modelo de Tráfego (Regra A)</h3>
-
-  <p>
-    Implementação em Fortran 90 de um modelo de tráfego urbano (BML – Regra A),
-    com otimização manual, análise de desempenho e paralelização com OpenMP.
-    Execução em cluster HPC utilizando SLURM.
-  </p>
-
-  <div class="tags">
-    <span>Fortran</span>
-    <span>HPC</span>
-    <span>OpenMP</span>
-    <span>SLURM</span>
-  </div>
-
-  <a href="https://github.com/VanessaMartiins/hpc-traffic-model"
-     target="_blank"
-     class="project-link">
-     🔗 Ver projeto no GitHub
-  </a>
-</div>
-
-    <div class="card in-progress">
-  <h3>💪 Site Fitness</h3>
-  <p>
-    Plataforma web em desenvolvimento para acompanhamento de treinos, registro de refeições e monitoramento de indicadores de saúde.
-    🚧 Ainda em construção 🚧 
-  </p>
-  
-  <div class="tags">
-    <span>Python</span>
-    <span>HTML/CSS/JS</span>
-  </div>
-
   <div class="project-links">
-    <a href="https://github.com/VanessaMartiins/diario-fitness" target="_blank" class="project-link">
-      🔗 Ver projeto no GitHub
+
+    <a
+      href="https://astroclassifier.com.br"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="project-link secondary"
+    >
+      🚀 Acessar AstroClassifier
     </a>
-    <!-- Se tiver deploy online, descomente a linha abaixo e coloque o link -->
-    <a href="https://vanessamartiins.github.io/diario-fitness" target="_blank" class="project-link">🌐 Testar Online</a>
+
+    <a
+      href="https://github.com/VanessaMartiins/AstroClassifier"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="project-link"
+    >
+      💻 Ver código no GitHub
+    </a>
+
   </div>
+  </div>
+
+  <!-- SISTEMA SCHERM -->
+<div class="card">
+
+  <h3>📦 Sistema de Gestão de Inventário — Scherm</h3>
+
+  <p>
+  Desenvolvimento de uma aplicação web interna para gestão de equipamentos,
+  estoque, projetos e clientes, com controle de acesso por perfis,
+  rastreabilidade de operações e módulo de auditoria.
+  A plataforma centraliza informações e processos operacionais,
+  oferecendo maior controle e organização na gestão do inventário.
+</p>
+  <div class="tags">
+    <span>Next.js</span>
+    <span>TypeScript</span>
+    <span>PostgreSQL</span>
+    <span>Prisma</span>
+    <span>NextAuth</span>
+    <span>Tailwind CSS</span>
+    <span>Vercel</span>
+  </div>
+
+  <div class="project-private">
+    <i class="fa-solid fa-lock"></i>
+    Projeto corporativo — código e acesso privados
+  </div>
+
 </div>
-    
+
+
+
+    <!-- HPC -->
+    <div class="card">
+
+      <h3>🚦 Simulação HPC – Modelo de Tráfego (Regra A)</h3>
+
+      <p>
+        Implementação em Fortran 90 de um modelo de tráfego urbano (BML – Regra A),
+        com otimização manual, análise de desempenho e paralelização com OpenMP.
+        Execução em cluster HPC utilizando SLURM.
+      </p>
+
+      <div class="tags">
+        <span>Fortran</span>
+        <span>HPC</span>
+        <span>OpenMP</span>
+        <span>SLURM</span>
+      </div>
+
+      <div class="project-links">
+
+        <a
+          href="https://github.com/VanessaMartiins/hpc-traffic-model"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="project-link"
+        >
+          💻 Ver projeto no GitHub
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <!-- SITE FITNESS -->
+    <div class="card in-progress">
+
+      <h3>💪 Site Fitness</h3>
+
+      <p>
+        Plataforma web em desenvolvimento para acompanhamento de treinos,
+        registro de refeições e monitoramento de indicadores de saúde.
+        🚧 Ainda em construção 🚧
+      </p>
+
+      <div class="tags">
+        <span>Python</span>
+        <span>HTML/CSS/JS</span>
+      </div>
+
+      <div class="project-links">
+
+        <a
+          href="https://github.com/VanessaMartiins/diario-fitness"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="project-link"
+        >
+          💻 Ver projeto no GitHub
+        </a>
+
+        <a
+          href="https://vanessamartiins.github.io/diario-fitness"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="project-link secondary"
+        >
+          🌐 Testar Online
+        </a>
+
+      </div>
+
+    </div>
+
   </section>
 
-  <!-- HABILIDADES -->
+
+  <!-- =========================
+       HABILIDADES
+  ========================== -->
   <section class="section">
+
     <h2>Habilidades Técnicas</h2>
 
     <div class="skills-grid">
 
+
+      <!-- DESENVOLVIMENTO -->
       <div class="skill-card">
-        <h3>Linguagens</h3>
+
+        <h3>Desenvolvimento</h3>
+
         <ul>
           <li>Python</li>
-          <li>Fortran 90</li>
-          <li>C, C++, C#</li>
-          <li>Java</li>
+          <li>TypeScript e JavaScript</li>
+          <li>Next.js</li>
+          <li>HTML e CSS</li>
           <li>SQL</li>
+          <li>Fortran 90</li>
         </ul>
+
       </div>
 
+
+      <!-- MACHINE LEARNING -->
       <div class="skill-card">
+
         <h3>Machine Learning & Dados</h3>
+
         <ul>
-          <li>PyTorch, Scikit-Learn</li>
-          <li>NumPy, Pandas, Matplotlib</li>
-          <li>Pipeline de ML, validação, métricas</li>
+          <li>PyTorch e Scikit-learn</li>
+          <li>NumPy e Pandas</li>
+          <li>Matplotlib</li>
+          <li>Redes neurais</li>
+          <li>Pré-processamento e análise de dados</li>
+          <li>Validação e métricas de modelos</li>
         </ul>
+
       </div>
 
+
+      <!-- HPC -->
       <div class="skill-card">
-        <h3>HPC & Performance</h3>
+
+        <h3>HPC & Infraestrutura</h3>
+
         <ul>
-          <li>OpenMP</li>
-          <li>SLURM e uso de cluster</li>
-          <li>Profiling e otimização de código</li>
-          <li>Análise de complexidade</li>
+          <li>Linux</li>
+          <li>SLURM</li>
+          <li>OpenMP e MPI</li>
+          <li>SSH</li>
+          <li>Servidores e ambientes HPC</li>
+          <li>Prometheus e Grafana</li>
         </ul>
+
       </div>
 
+
+      <!-- FERRAMENTAS -->
       <div class="skill-card">
-        <h3>Ferramentas & Sistemas</h3>
+
+        <h3>Ferramentas & Plataformas</h3>
+
         <ul>
-          <li>Git, GitHub, Linux, WSL</li>
-          <li>Jupyter Notebook, VS Code</li>
-          <li>SAP (básico), sistemas MES e legados</li>
-          <li>Git, GitHub, Linux, WSL, SSH</li>
-          <li>Vercel, GitHub OAuth, DNS</li>
-          <li>Jupyter Notebook, VS Code</li>
+          <li>Git e GitHub</li>
+          <li>Vercel</li>
+          <li>PostgreSQL e Prisma</li>
+          <li>NextAuth / Auth.js</li>
+          <li>Tailscale</li>
+          <li>VS Code e Jupyter Notebook</li>
         </ul>
+
       </div>
 
     </div>
+
   </section>
 
-  <!-- EXPERIÊNCIA -->
-  <section class="section">
-    <h2>Experiência Profissional</h2>
 
-    <div class="job-card">
-  <h3>Estagiária de Infraestrutura HPC — Scherm (2026–Atual)</h3>
-  <ul>
-    <li>Atuação em projetos de Computação de Alto Desempenho (HPC) e infraestrutura de IA.</li>
-    <li>Acompanhamento de ambientes Linux, servidores, armazenamento e recursos computacionais.</li>
-    <li>Documentação técnica, validações e suporte a projetos de clientes.</li>
-    <li>Uso de Git, Linux, SSH, Vercel, GitHub e ferramentas de infraestrutura.</li>
-  </ul>
-</div>
-    
-    <div class="job-card">
-      <h3>Técnico de Suporte I — TIVIT (2025)</h3>
-      <ul>
-        <li>Monitoramento de CPDs, links, servidores e firewalls.</li>
-        <li>Atuação no Centro de Monitoramento e Controle.</li>
-        <li>Suporte à infraestrutura crítica alocada na CSN.</li>
-      </ul>
+  <!-- =========================
+       FORMAÇÃO
+  ========================== -->
+ <!-- =========================
+     FORMAÇÃO ACADÊMICA
+========================== -->
+<section class="section">
+
+  <h2>Formação Acadêmica</h2>
+
+  <div class="education-card">
+
+    <div class="education-icon">
+      <i class="fa-solid fa-graduation-cap"></i>
     </div>
 
-    <div class="job-card">
-      <h3>Técnica de Informática — CSN (2023–2025)</h3>
-      <ul>
-        <li>Suporte a sistemas MES, SAP e sistemas legados.</li>
-        <li>Garantia da continuidade operacional industrial.</li>
-        <li>Atendimentos técnicos e manutenção de rotina.</li>
-      </ul>
+    <div class="education-content">
+
+      <span class="education-status">
+        CONCLUÍDO EM 2026
+      </span>
+
+      <h3>Bacharelado em Física Computacional</h3>
+
+      <p class="education-institution">
+        Universidade Federal Fluminense — UFF
+      </p>
+
+      <div class="education-tcc">
+        <span class="education-tcc-label">Trabalho de Conclusão de Curso</span>
+
+        <p>
+          Classificação Fotométrica de Objetos Astronômicos com Redes Neurais
+        </p>
+      </div>
+
     </div>
 
-    <div class="job-card">
-      <h3>Estagiária — CSN (2022–2023)</h3>
-      <ul>
-        <li>1 ano e 8 meses na equipe de Manutenção de Sistemas MES.</li>
-        <li>Desenvolvimento de consultas SQL e melhorias internas.</li>
-        <li>Otimização de processos e suporte técnico.</li>
-      </ul>
-    </div>
-  </section>
+  </div>
 
-  <!-- RODAPÉ -->
+</section>
+
+
+  <!-- =========================
+       EXPERIÊNCIA PROFISSIONAL
+  ========================== -->
+  <!-- =========================
+     EXPERIÊNCIA PROFISSIONAL
+========================== -->
+<section class="section">
+
+  <h2>Experiência Profissional</h2>
+
+  <div class="timeline">
+
+    <!-- SCHERM -->
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+
+      <div class="timeline-content">
+        <span class="timeline-date">2026 — Atual</span>
+
+        <h3>Estagiária de Infraestrutura HPC — Scherm</h3>
+
+        <ul>
+          <li>
+            Atuação em projetos de Computação de Alto Desempenho (HPC),
+            infraestrutura de IA e ambientes Linux.
+          </li>
+
+          <li>
+            Configuração, validação e troubleshooting de servidores,
+            GPUs, armazenamento e recursos computacionais.
+          </li>
+
+          <li>
+            Experiência com SLURM, virtualização, monitoramento,
+            SSH e acesso remoto a ambientes de clientes.
+          </li>
+
+          <li>
+            Desenvolvimento de ferramentas internas, automações
+            e documentação técnica para suporte às operações.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- TIVIT -->
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+
+      <div class="timeline-content">
+        <span class="timeline-date">2025</span>
+
+        <h3>Técnico de Suporte I — TIVIT</h3>
+
+        <ul>
+          <li>Monitoramento de CPDs, links, servidores e firewalls.</li>
+          <li>Atuação no Centro de Monitoramento e Controle.</li>
+          <li>Suporte à infraestrutura crítica alocada na CSN.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- CSN TÉCNICA -->
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+
+      <div class="timeline-content">
+        <span class="timeline-date">2023 — 2025</span>
+
+        <h3>Técnica de Informática — CSN</h3>
+
+        <ul>
+          <li>Suporte a sistemas MES, SAP e sistemas legados.</li>
+          <li>Garantia da continuidade operacional industrial.</li>
+          <li>Atendimentos técnicos e manutenção de rotina.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- CSN ESTÁGIO -->
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+
+      <div class="timeline-content">
+        <span class="timeline-date">2022 — 2023</span>
+
+        <h3>Estagiária — CSN</h3>
+
+        <ul>
+          <li>Atuação na equipe de Manutenção de Sistemas MES.</li>
+          <li>Desenvolvimento de consultas SQL e melhorias internas.</li>
+          <li>Otimização de processos e suporte técnico.</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+
+  <!-- =========================
+       RODAPÉ
+  ========================== -->
   <footer>
+
     <p>© 2026 — Vanessa Gomes Martins da Silva</p>
+
     <p class="footer-links">
-      <a href="https://github.com/VanessaMartiins" target="_blank">GitHub</a> •
-      <a href="https://www.linkedin.com/in/vanessagmartins/" target="_blank">LinkedIn</a> •
-      <a href="https://lattes.cnpq.br/7716509150901876" target="_blank">Lattes</a>
+
+      <a
+        href="https://github.com/VanessaMartiins"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GitHub
+      </a>
+
+      •
+
+      <a
+        href="https://www.linkedin.com/in/vanessagmartins/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        LinkedIn
+      </a>
+
+      •
+
+      <a
+        href="https://lattes.cnpq.br/7716509150901876"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Lattes
+      </a>
+
     </p>
+
   </footer>
 
-  <!-- SCRIPT DARK/LIGHT COM MEMÓRIA -->
+
+  <!-- =========================
+       DARK / LIGHT MODE
+  ========================== -->
   <script>
+
     const toggle = document.getElementById("theme-toggle");
     const body = document.body;
 
-    // carrega preferência salva
+    // Carrega a preferência salva anteriormente.
     const savedTheme = localStorage.getItem("theme");
+
     if (savedTheme === "dark") {
       body.classList.add("dark");
       toggle.textContent = "☀️";
     }
 
     toggle.addEventListener("click", () => {
+
       body.classList.toggle("dark");
+
       const isDark = body.classList.contains("dark");
+
       toggle.textContent = isDark ? "☀️" : "🌙";
-      localStorage.setItem("theme", isDark ? "dark" : "light");
+
+      localStorage.setItem(
+        "theme",
+        isDark ? "dark" : "light"
+      );
+
     });
+
   </script>
 
 </body>
+
 </html>
